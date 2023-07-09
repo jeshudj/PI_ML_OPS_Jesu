@@ -121,9 +121,9 @@ Deben crear 6 funciones para los endpoints que se consumirán en la API, recuerd
 
 Aquí encontrarás información adicional y recursos relacionados con nuestro proyecto:
 
-1. `Video explicativo:` Se ha creado un [video explicativo](https://www.youtube.com/watch?v=C518Dld_D2U)  donde te muestro algunas funciones de mi proyecto con el uso de la API.
+1. `Video explicativo:` Se ha creado un [video explicativo](https://www.youtube.com/watch?v=V7I7m5FmO_A&t=38s)  donde te muestro algunas funciones de mi proyecto con el uso de la API.
 
-2. `Acceso a la API:` En el Siguiente [enlace de la API](https://drive.google.com/drive/folders/1nvSjC2JWUH48o3pb8xlKofi8SNHuNWeu) podras encontrar las funciones de este proyecto.
+2. `Acceso a la API:` En el Siguiente [enlace de la API](https://pi-ml-ops-jesus.onrender.com/docs) podras encontrar las funciones de este proyecto.
 
 3. `Obtención de datos originales:` Si te interesa en obtener acceso a los datos originales utilizados en este proyecto de análisis, puedes ir al siguiente [enlace de descarga](https://drive.google.com/drive/folders/1nvSjC2JWUH48o3pb8xlKofi8SNHuNWeu) para que puedas explorar y analizar los datos por tu cuenta.
 
