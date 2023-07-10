@@ -44,7 +44,7 @@ def peliculas_duracion(pelicula:str):
 @app.get("/franquicia/{franquicia}")
 def franquicia(franquicia:str):
     franquicia_filtro = data[data['collection'] == franquicia]
-    cantidad_pelis = data['collection'].shape[0]
+    cantidad_pelis = data['collection'].value_counts()
     ganancia = data['revenue'].sum()
     promedio = data['revenue'].mean()
     return {'franquicia:':franquicia, 'Cantidad de Peliculas:':cantidad_pelis,'ganancias totales generadas:':ganancia, 'ganancia promedio:':promedio}
