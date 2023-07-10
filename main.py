@@ -47,7 +47,7 @@ def franquicia(franquicia:str):
     cantidad_pelis = data['collection'].shape[0]
     ganancia = data['revenue'].sum()
     promedio = data['revenue'].mean()
-    return {'Franquicia:':franquicia, 'ganancias totales generadas:':ganancia, 'ganancia promedio:':promedio}
+    return {'franquicia:':franquicia_filtro, 'Cantidad de Peliculas:':cantidad_pelis,'ganancias totales generadas:':ganancia, 'ganancia promedio:':promedio}
 
 
 # CONSULTA 4:
