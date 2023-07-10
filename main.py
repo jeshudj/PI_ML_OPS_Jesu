@@ -42,12 +42,13 @@ def peliculas_duracion(pelicula:str):
 # CONSULTA 3:
 # Se ingresa la franquicia, retornando la cantidad de peliculas, ganancia total y promedio
 @app.get("/franquicia/{franquicia}")
-def franquicia(franquicia:str):
+def franquicia(franquicia: str):
     franquicia_filtro = data[data['collection'] == franquicia]
-    cantidad_pelis = data['collection'].count()
-    ganancia = data['revenue'].sum()
-    promedio = data['revenue'].mean()
-    return {'franquicia:':franquicia, 'Cantidad de Peliculas:':cantidad_pelis,'ganancias totales generadas:':ganancia, 'ganancia promedio:':promedio}
+    cantidad_franquicias = franquicia_filtro['collection'].nunique()
+    cantidad_pelis = franquicia_filtro.shape[0]
+    ganancia = franquicia_filtro['revenue'].sum()
+    promedio = franquicia_filtro['revenue'].mean()
+    return {'Franquicia:': franquicia, 'Cantidad de Franquicias:': cantidad_franquicias, 'Cantidad de Peliculas:': cantidad_pelis, 'ganancias totales generadas:': ganancia, 'ganancia promedio:': promedio}
 
 
 # CONSULTA 4:
