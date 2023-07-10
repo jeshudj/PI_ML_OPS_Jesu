@@ -31,7 +31,7 @@ Como Data Scientist Nuestro objetivo es desarrollar una aplicación de recomenda
 
 ## Transformaciones
 
-En el archivo ETL.ipynb que se proporciona hay una serie de pasos que se realizó para extraer, transformar y cargar datos en un DataFrame llamado 'movies'. Aquí está la propuesta de trabajo planteada.
+En el archivo ETL.ipynb que se proporciona hay una serie de pasos que se realizó para extraer, transformar y cargar datos en un DataFrame llamado 'clean_movies'. Aquí está la propuesta de trabajo planteada.
 
 
 ## **Propuesta de trabajo planteada**
@@ -54,7 +54,7 @@ En el archivo ETL.ipynb que se proporciona hay una serie de pasos que se realiz�
 
 ## Análisis exploratorio de los datos EDA
 
-Ya los datos están limpios, ahora es tiempo de investigar las relaciones que hay entre las variables de los datasets, ver si hay outliers o anomalías (que no tienen que ser errores necesariamente), y ver si hay algún patrón interesante que valga la pena explorar en un análisis posterior. Las nubes de palabras dan una buena idea de cuáles palabras son más frecuentes en los títulos, se deja capturas obtenidas del DataFrame
+Ya los datos están limpios, ahora es tiempo de investigar las relaciones que hay entre las variables de los datasets, ver si hay outliers o anomalías (que no tienen que ser errores necesariamente), y ver si hay algún patrón interesante que valga la pena explorar en un análisis posterior. Las nubes de palabras dan una buena idea de cuáles palabras son más frecuentes en los títulos, se deja capturas obtenidas del DataFrame llamado 'recomendacion_movies'.
 
 
 <p align="center">
